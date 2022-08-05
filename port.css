@@ -1,0 +1,492 @@
+*{
+    transition: 0.5s;
+}
+.container{
+    text-align: justify;
+    position: relative;
+    background-image: url(./images/kim\ real.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    color: black;
+    background-color: lightslategray;
+    height: 700px;
+}
+ul{
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+}
+.container nav ul li { 
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    float: right;
+ }
+ .yama img{
+   float: right;
+   height: 370px;
+   width: 350px;
+   margin-top: 0px;
+   margin-right: 20px;
+ }
+ span{
+   color: blue;
+ }
+ .container nav{
+    position: relative;
+    margin-left: 46%;
+    font-size: 15px;
+ }
+ .container nav ul li a{
+    text-decoration: underline;
+    color: black;
+ }
+ .text{
+    font-size: 50px;
+    font-family: arial;
+    margin-left: 20px;
+    padding-bottom: 20px;
+ }
+
+ .About h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+
+ }
+ .yam{
+    font-size: 40px;
+    width: 500px;
+    margin-left: 20px;
+ }
+ .book{
+    margin-top: -33px;
+ }
+ .flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 70px;
+    padding: 20px;
+    font-size: 20px;
+    height: 400px;
+    width: 300px;
+    border: 1px;
+    border-radius: 40px;
+  }
+  .me{
+    text-align: center;
+    text-decoration: underline;
+  }
+.joe{
+   font-size: 20px;
+
+}
+.kim{
+   font-size: 25px;
+   display: flex;
+   justify-content: space-between;
+}
+.tri{
+   text-align: center;
+   font-size: 20px;
+}
+.photos{
+   height: 450px;
+   width: 350px;
+   display: flex;
+   justify-content: space-between;
+}
+.photos img{
+   margin: 35px;
+   margin-left: 20px;
+   margin-right: 55px;
+}
+.phot{
+  margin-left: 60px;
+  margin-right: 30px;
+   position: relative;
+   justify-content: space-between;
+   display: flex;
+   padding-top: 2px;
+   font-size: 20px;
+}
+.pen{
+   text-align: center;
+   font-size: 20px;
+}
+.square{
+   float: right;
+   font-size: 30px;
+}
+.bag{
+   text-align: center;
+   font-size: 20px;
+   color: darkviolet;
+}
+.green input{
+   width: 300px;
+   height: 50px;
+   margin-top: 20px;
+   margin-left: 500px;
+   margin-bottom: 10px;
+   justify-content: space-between;
+   border-radius: 15px;
+   text-align: initial;
+}
+.gum form{
+   margin-top: 5px;
+   margin-left:530px;
+   height: 100px;
+   width: 300px;
+   text-align: unset;
+   border-radius: 10px;
+   margin-bottom: 70px;
+}
+button{
+   margin-left: 600px;
+   height: 40px;
+   width: 90px;
+   border-radius: 40px;
+   background-color: blue;
+   color: black;
+   font-size: 20px;
+   margin-top: 5px;
+}
+@media only screen and (min-width:768px) {
+   *{
+      transition: 0.5s;
+  }
+  .container{
+      text-align: justify;
+      position: relative;
+      background-image: url(./images/kim\ real.jpg);
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      color: black;
+      background-color: lightslategray;
+      height: 700px;
+  }
+  ul{
+      margin: 10px;
+      padding: 30px;
+      display: flex;
+  }
+  .container nav ul li { 
+      display: inline-block;
+      margin-right: 5px;
+      margin-top: 0px;
+      margin-left: 30px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      float: right;
+   }
+   .yama img{
+     float: right;
+     height: 370px;
+     width: 350px;
+     margin-top: 0px;
+     margin-right: 20px;
+   }
+   span{
+     color: blue;
+   }
+   .container nav{
+      position: relative;
+      margin-left: 46%;
+      font-size: 15px;
+   }
+   .container nav ul li a{
+      text-decoration: underline;
+      color: black;
+   }
+   .text{
+      font-size: 50px;
+      font-family: arial;
+      margin-left: 20px;
+      padding-bottom: 20px;
+   }
+  
+   .About h2{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 40px;
+  
+   }
+   .yam{
+      font-size: 40px;
+      width: 500px;
+      margin-left: 20px;
+   }
+   .book{
+      margin-top: -33px;
+   }
+   .flex-container {
+      display: flex;
+    }
+    
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 70px;
+      padding: 20px;
+      font-size: 20px;
+      height: 400px;
+      width: 300px;
+      border: 1px;
+      border-radius: 40px;
+    }
+    .me{
+      text-align: center;
+      text-decoration: underline;
+    }
+  .joe{
+     font-size: 20px;
+  
+  }
+  .kim{
+     font-size: 25px;
+     display: flex;
+     justify-content: space-between;
+  }
+  .tri{
+     text-align: center;
+     font-size: 20px;
+  }
+  .photos{
+     height: 450px;
+     width: 350px;
+     display: flex;
+     justify-content: space-between;
+  }
+  .photos img{
+     margin: 35px;
+     margin-left: 20px;
+     margin-right: 55px;
+  }
+  .phot{
+    margin-left: 60px;
+    margin-right: 30px;
+     position: relative;
+     justify-content: space-between;
+     display: flex;
+     padding-top: 2px;
+     font-size: 20px;
+  }
+  .pen{
+     text-align: center;
+     font-size: 20px;
+  }
+  .square{
+     float: right;
+     font-size: 30px;
+  }
+  .bag{
+     text-align: center;
+     font-size: 20px;
+     color: darkviolet;
+  }
+  .green input{
+     width: 300px;
+     height: 50px;
+     margin-top: 20px;
+     margin-left: 500px;
+     margin-bottom: 10px;
+     justify-content: space-between;
+     border-radius: 15px;
+     text-align: initial;
+  }
+  .gum form{
+     margin-top: 5px;
+     margin-left:530px;
+     height: 100px;
+     width: 300px;
+     text-align: unset;
+     border-radius: 10px;
+     margin-bottom: 70px;
+  }
+  button{
+     margin-left: 600px;
+     height: 40px;
+     width: 90px;
+     border-radius: 40px;
+     background-color: blue;
+     color: black;
+     font-size: 20px;
+     margin-top: 5px;
+  }
+  @media(max-width:800px){
+     
+   *{
+      transition: 0.5s;
+  }
+  .container{
+      text-align: justify;
+      position: relative;
+      background-image: url(./images/kim\ real.jpg);
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      color: black;
+      background-color: lightslategray;
+      height: 700px;
+  }
+  ul{
+      margin: 10px;
+      padding: 30px;
+      display: flex;
+  }
+  .container nav ul li { 
+      display: inline-block;
+      margin-right: 5px;
+      margin-top: 0px;
+      margin-left: 30px;
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      float: right;
+   }
+   .yama img{
+     float: right;
+     height: 370px;
+     width: 350px;
+     margin-top: 0px;
+     margin-right: 20px;
+   }
+   span{
+     color: blue;
+   }
+   .container nav{
+      position: relative;
+      margin-left: 46%;
+      font-size: 15px;
+   }
+   .container nav ul li a{
+      text-decoration: underline;
+      color: black;
+   }
+   .text{
+      font-size: 50px;
+      font-family: arial;
+      margin-left: 20px;
+      padding-bottom: 20px;
+   }
+  
+   .About h2{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 40px;
+  
+   }
+   .yam{
+      font-size: 40px;
+      width: 500px;
+      margin-left: 20px;
+   }
+   .book{
+      margin-top: -33px;
+   }
+   .flex-container {
+      display: flex;
+    }
+    
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 70px;
+      padding: 20px;
+      font-size: 20px;
+      height: 400px;
+      width: 300px;
+      border: 1px;
+      border-radius: 40px;
+    }
+    .me{
+      text-align: center;
+      text-decoration: underline;
+    }
+  .joe{
+     font-size: 20px;
+  
+  }
+  .kim{
+     font-size: 25px;
+     display: flex;
+     justify-content: space-between;
+  }
+  .tri{
+     text-align: center;
+     font-size: 20px;
+  }
+  .photos{
+     height: 450px;
+     width: 350px;
+     display: flex;
+     justify-content: space-between;
+  }
+  .photos img{
+     margin: 35px;
+     margin-left: 20px;
+     margin-right: 55px;
+  }
+  .phot{
+    margin-left: 60px;
+    margin-right: 30px;
+     position: relative;
+     justify-content: space-between;
+     display: flex;
+     padding-top: 2px;
+     font-size: 20px;
+  }
+  .pen{
+     text-align: center;
+     font-size: 20px;
+  }
+  .square{
+     float: right;
+     font-size: 30px;
+  }
+  .bag{
+     text-align: center;
+     font-size: 20px;
+     color: darkviolet;
+  }
+  .green input{
+     width: 300px;
+     height: 50px;
+     margin-top: 20px;
+     margin-left: 500px;
+     margin-bottom: 10px;
+     justify-content: space-between;
+     border-radius: 15px;
+     text-align: initial;
+  }
+  .gum form{
+     margin-top: 5px;
+     margin-left:530px;
+     height: 100px;
+     width: 300px;
+     text-align: unset;
+     border-radius: 10px;
+     margin-bottom: 70px;
+  }
+  button{
+     margin-left: 600px;
+     height: 40px;
+     width: 90px;
+     border-radius: 40px;
+     background-color: blue;
+     color: black;
+     font-size: 20px;
+     margin-top: 5px;
+  }
+}
+  .icon i{
+   float: right;
+   height: 70px;
+   width: 40px;
+  }}
